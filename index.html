@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Meu Portfólio</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="projeto1.html">Projeto 1</a></li>
+        <li><a href="curiosidades.html">Curiosidades</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="sobre">
+      <h2>Interesses Profissionais</h2>
+      <ul>
+        <li>Finanças descentralizadas (DeFi)</li>
+        <li>Redes Blockchain</li>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>Data Science</li>
+      </ul>
+    </section>
+
+    <section class="inspiracao">
+      <h2>O que me inspira</h2>
+      <p>Acredito fielmente que a tecnologia transforma o mundo, quero fazer parte dessa transformação, mudando o dia a dia das pessoas, sobretudo, gerando impacto profundo na construção de um mundo melhor.</p>
+    </section>
+
+    <section class="estudos">
+      <h2>Links de Estudo</h2>
+      <ul>
+        <li><a href="https://www.infomoney.com.br/guias/defi/" target="_blank">O que é DeFi? - Infomoney</a></li>
+        <li><a href="https://ethereum.org/pt/developers/docs/intro-to-ethereum/" target="_blank">Documentação Ethereum</a></li>
+        <li><a href="https://www.learnpython.org/" target="_blank">LearnPython.org</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank">JavaScript - MDN Web Docs</a></li>
+        <li><a href="https://www.ibm.com/br-pt/topics/data-science" target="_blank">IBM- O que é ciência de dados?</a></li>
+      </ul>
+    </section>
+
+    <section class="curiosidade">
+      <h2 style="color:deepskyblue;">Curiosidade Aleatória</h2>
+      <button onclick="mostrarCuriosidade()" style="padding: 10px; font-size: 16px;">Clique aqui</button>
+      <p id="curiosidade" style="margin-top: 10px; font-style: italic; color: white;"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 - Desenvolvido por Walter Maia</p>
+  </footer>
+
+  <script>
+    const curiosidades = [
+      "🔗 DeFi (Finanças Descentralizadas) elimina intermediários como bancos, usando contratos inteligentes para empréstimos, seguros e muito mais.",
+      "⛓️ Blockchain é um livro-razão digital imutável, ou seja, ninguém pode alterar transações uma vez registradas.",
+      "🐍 Python é uma linguagem extremamente popular em ciência de dados, automação e desenvolvimento web.",
+      "📜 JavaScript é essencial para a criação de páginas web interativas e dinâmicas, sendo executado diretamente no navegador.",
+      "📊 Data Science combina estatística, programação e conhecimento de domínio para extrair valor de grandes volumes de dados."
+    ];
+
+    function mostrarCuriosidade() {
+      const index = Math.floor(Math.random() * curiosidades.length);
+      const curiosidade = curiosidades[index];
+      document.getElementById("curiosidade").innerText = curiosidade;
+    }
+  </script>
+</body>
+</html>

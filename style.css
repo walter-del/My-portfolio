@@ -1,0 +1,88 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('fundo-cripto.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  font-size: 20px;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+h1 {
+  color: #00aaff;
+  font-size: 2.8rem;
+}
+
+h2 {
+  color: #00aaff;
+  font-size: 2.2rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+main {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+p, li {
+  font-size: 1.3rem;
+}
+
+a {
+  color: #00ffff;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #ffff00;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  font-size: 1rem;
+}
+
+#tema-btn {
+  background-color: #00aaff;
+  color: black;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.descricao-imagem {
+  font-size: 1.8rem;
+  margin-top: 0.8rem;
+  text-align: center;
+  color: #ffffff;
+}
