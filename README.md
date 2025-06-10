@@ -1,6 +1,6 @@
 # Walter Maia - Portfólio Pessoal
 
-Bem-vindo ao meu portfólio pessoal! Aqui você encontrará um pouco sobre quem sou, minhas motivações, conhecimentos e projetos desenvolvidos. O site apresenta uma identidade visual moderna e acessível, alinhada com os valores de inovação, inclusão e impacto social.
+Bem-vindo ao Meu Portfólio: Desbravando o Futuro. Entre no universo da tecnológia e da programação, sobretudo sua conexão com a descentralização global, liderado por redes blockchains e finanças descentralizadas.
 
 ---
 
@@ -41,10 +41,9 @@ O Brainpop! é um jogo educacional com botões físicos, áudio orientativo e ca
 
 Sinta-se à vontade para entrar em contato comigo:
 
-- **Email**: waltermaiasantiago@gmail.com  
-- **Instagram**: [@waltermaia.s](https://www.instagram.com/waltermaia.s)  
-- **LinkedIn**: [Walter Maia](https://www.linkedin.com/in/waltermaia)
-
+- **Email**: [waltinhonetofirst@gmail.com](waltinhonetofirst@gmail.com)
+- **LinkedIn**: [Walter Maia](www.linkedin.com/in/walter-maia-)
+- **Substack**: [EntusiastaCripto](https://substack.com/@entusiastacriptogmailcom?r=5sqtxu&utm_medium=ios&utm_source=profile)
 ---
 
 ## 📜 Licença
