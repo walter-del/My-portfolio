@@ -16,7 +16,7 @@ Este projeto foi criado como parte da disciplina de *Introdução à Computaçã
 - CSS3
 - JavaScript
 - Python (conceitualmente aplicado nos estudos)
-- Imagens e áudios personalizados
+- Imagens
 - Conceitos de Blockchain, DeFi e Data Science
 
 ---
